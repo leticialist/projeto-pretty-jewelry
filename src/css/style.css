@@ -140,7 +140,7 @@ body {
 }
 
 .rodape {
-    background: url(/src/img/rodape.png) center center no-repeat;
+    background: url(../img/rodape.png) center center no-repeat;
     background-size: cover;
     padding: 35px 180px;
 }
