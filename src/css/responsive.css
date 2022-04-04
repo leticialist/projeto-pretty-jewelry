@@ -1,0 +1,119 @@
+@media (max-width: 992px) {
+    .secao-texto {
+        padding: 153px 25px;
+    }
+
+    .secao-texto p,
+    .secao-texto.onde-estamos p {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .contato {
+        background-image: none;
+        background-color: #eedfc8;
+    }
+
+    .contato .texto {
+        position: relative;
+        text-align: center;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+
+    .contato h2 {
+        margin-bottom: 46px;
+    }
+}
+
+@media (max-width: 720px) {
+
+    .ladrilho .grande,
+    .ladrilho .medio {
+        width: 100%;
+    }
+
+    .ladrilho .pequeno,
+    .ladrilho .pequeno2 {
+        width: 50%;
+    }
+
+    .rodape {
+        text-align: center;
+        background-image: none;
+        background-color: #f5f3ef;
+    }
+
+
+    .rodape ul {
+        display: block;
+        width: 100%;
+        margin-bottom: 122px;
+    }
+
+    .rodape ul li {
+        display: block;
+    }
+
+    .rodape ul li a {
+        font-size: 2rem;
+    }
+
+    .rodape .redes-sociais {
+        float: none;
+        margin-bottom: 28px;
+    }
+}
+
+@media (max-width: 425px) {
+    .cabecalho .logo {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .cabecalho nav {
+        position: static;
+        text-align: center;
+        width: 100%;
+    }
+
+    .cabecalho nav ul li {
+        display: block;
+    }
+
+    .cabecalho nav ul li a {
+        width: 100%;
+        display: block;
+    }
+
+    .painel h2 {
+        font-size: 2.5rem;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .secao-texto h2 {
+        font-size: 30px;
+    }
+
+    .secao-texto.onde-estamos p {
+        font-size: 2rem;
+    }
+
+    .contato address {
+        font-size: 20px;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .ladrilho .pequeno,
+    .ladrilho .pequeno2 {
+        width: 100%;
+    }
+}
