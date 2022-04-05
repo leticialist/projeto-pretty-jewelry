@@ -125,12 +125,15 @@ body {
     font-size: 45px;
     font-weight: 600;
     margin-bottom: 30px;
+    text-shadow: 2px 2px 1px #80808037;
 }
 
 .contato address {
     font-style: normal;
     font-size: 25px;
     font-weight: 600;
+    text-shadow: 2px 2px 1px #80808037;
+
 }
 
 .contato .texto {
