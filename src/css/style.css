@@ -31,9 +31,15 @@ body {
     margin-top: 30px;
 }
 
-.cabecalho ul li {
+.cabecalho ul li {  
+    font-size: 2rem;
     display: inline-block;
     padding: 15px;
+}
+
+.cabecalho ul li a {
+    color: #642714;
+    font-weight: 400;
 }
 
 .cabecalho ul li a:hover {
@@ -124,15 +130,12 @@ body {
     font-size: 45px;
     font-weight: 600;
     margin-bottom: 30px;
-    text-shadow: 2px 2px 1px #80808037;
 }
 
 .contato address {
     font-style: normal;
     font-size: 25px;
     font-weight: 600;
-    text-shadow: 2px 2px 1px #80808037;
-
 }
 
 .contato .texto {
@@ -158,6 +161,7 @@ body {
 }
 
 .rodape ul li a{
+    font-weight: 400;
     color: #642714;
 }
 
@@ -166,6 +170,7 @@ body {
 }
 
 .rodape .copyright {
+    font-weight: 400;
     color: #642714;
 }
 
