@@ -13,7 +13,7 @@
 @media (max-width: 768px) {
     .contato {
         background-image: none;
-        background-color: #eedfc8;
+        background-color: #d6c9b4;
     }
 
     .contato .texto {
@@ -31,6 +31,9 @@
 
 @media (max-width: 720px) {
 
+    .cabecalho ul li {
+        font-size: 1.6rem;
+    }
     .ladrilho .grande,
     .ladrilho .medio {
         width: 100%;
@@ -46,7 +49,6 @@
         background-image: none;
         background-color: #f5f3ef;
     }
-
 
     .rodape ul {
         display: block;
